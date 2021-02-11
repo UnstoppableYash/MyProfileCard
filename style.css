@@ -102,7 +102,7 @@ body {
     display: inline-block;
     padding: 12px 50px;
     /* color: #e66767; */
-    border: 2px solid #FFDB00;
+    border: 2px solid #ff4654;
     border-radius: 6px;
     margin-top: 1.6rem;
     transition: .3s linear;
@@ -110,13 +110,13 @@ body {
 
 .contactBtn a {
     font-size: 2.3rem;
-    color: #FFDB00;
+    color: #ff4654;
 }
 
 .contactBtn:hover {
     color: #101822;
-    background-color: #ff4654;
-    border: 2px solid #ff4654;
+    background-color: #FFDB00;
+    border: 2px solid #FFDB00;
 }
 
 .contactBtn a:hover {
