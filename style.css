@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: GoogleFont;
+}
+
+@font-face {
+    src: url(assets/ProductSans.ttf);
+    font-family: GoogleFont;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/bg.jpeg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainCard {
+    width: 45rem;
+    text-align: center;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.cardHeader {
+    background-color: #101822;
+    padding: 4rem 4rem;
+}
+
+.logo {
+    display: inline-block;
+    padding: 8px;
+    background: linear-gradient(130deg, #74b9ff, #e66767);
+    margin: auto;
+    border-radius: 50%;
+    background-size: 200% 200%;
+    animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient {
+    25% {
+        background-position: left bottom;
+    }
+    50% {
+        background-position: right bottom;
+    }
+    75% {
+        background-position: right top;
+    }
+    100% {
+        background-position: left top;
+    }
+}
+
+.logo img {
+    display: block;
+    width: 12rem;
+    border-radius: 50%;
+}
+
+.name {
+    font-size: 4rem;
+    font-weight: 600;
+    color: #ff4654;
+    margin: .6rem .6rem;
+}
+
+.subtitle {
+    font-size: 1.8rem;
+    font-weight: 590;
+    color: #ff4654;
+    margin: .6rem .6rem;
+}
+
+.links {
+    font-size: 3.5rem;
+    margin: .6rem .6rem;
+}
+
+.links a {
+    color: #ff4654;
+    margin: 0.4rem 0.4rem;
+    transition: 0.2s linear;
+}
+
+.links a:hover {
+    /* background-color: #101822; */
+    color: #FFDB00;
+}
+
+.contactBtn {
+    display: inline-block;
+    padding: 12px 50px;
+    /* color: #e66767; */
+    border: 2px solid #FFDB00;
+    border-radius: 6px;
+    margin-top: 1.6rem;
+    transition: .3s linear;
+}
+
+.contactBtn a {
+    font-size: 2.3rem;
+    color: #FFDB00;
+}
+
+.contactBtn:hover {
+    color: #101822;
+    background-color: #ff4654;
+    border: 2px solid #ff4654;
+}
+
+.contactBtn a:hover {
+    color: #101822;
+}
+
+.cardFooter {
+    background: #ff4654;
+    padding: 60px 10px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    flex: 1;
+    font-size: 2.1rem;
+}
+
+.item span {
+    display: block;
+    font-size: 3.1rem;
+}
