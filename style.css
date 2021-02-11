@@ -30,6 +30,7 @@ body {
     text-align: center;
     border-radius: 1rem;
     overflow: hidden;
+    box-shadow: 1px 1px 30px black;
 }
 
 .cardHeader {
