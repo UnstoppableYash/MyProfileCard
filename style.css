@@ -101,11 +101,11 @@ body {
 
 .contactBtn {
     display: inline-block;
-    padding: 12px 50px;
+    padding: 1.2rem 5rem;
     /* color: #e66767; */
     border: 2px solid #ff4654;
     border-radius: 6px;
-    margin-top: 1.6rem;
+    /* margin-top: 1.6rem; */
     transition: .3s linear;
 }
 
@@ -126,7 +126,7 @@ body {
 
 .cardFooter {
     background: #ff4654;
-    padding: 60px 10px;
+    padding: 6rem 1rem;
 }
 
 .items {
@@ -142,4 +142,94 @@ body {
 .item span {
     display: block;
     font-size: 3.1rem;
+}
+
+/* RESPONSIVE CODE */
+
+@media screen and (max-width: 1044px){
+    .mainCard {
+        width: 43rem;
+    }
+    .cardHeader{
+        padding: 1rem 1rem;
+    }
+    .name {
+        font-size: 3.7rem;
+    }
+    .subtitle {
+        font-size: 1.8rem;
+    }
+
+    .cardFooter {
+        padding: 5rem 1rem;
+    }
+}
+
+@media screen and (max-width: 492px){
+    .mainCard {
+        width: 38rem;
+    }
+    .cardHeader{
+        padding: 1rem 1rem;
+    }
+    .name {
+        font-size: 3.5rem;
+    }
+    .subtitle {
+        font-size: 1.7rem;
+    }
+
+    .cardFooter {
+        padding: 4rem 1rem;
+    }
+    .contactBtn {
+        padding: 1rem 4.5rem;
+        margin-top: 0rem;
+    }
+    .contactBtn a {
+        font-size: 2rem;
+    }
+    .item {
+        font-size: 1.9rem;
+    }
+    .item span {
+        display: block;
+        font-size: 2.8rem;
+    }
+}
+
+@media screen and (max-width: 416px){
+    .mainCard {
+        width: 32rem;
+    }
+    .cardHeader{
+        padding: 1rem 1rem;
+    }
+    .name {
+        font-size: 3rem;
+    }
+    .subtitle {
+        font-size: 1.4rem;
+    }
+    .links {
+        font-size: 3.2rem;
+    }
+
+    .cardFooter {
+        padding: 4rem 1rem;
+    }
+    .contactBtn {
+        padding: 1rem 4.2rem;
+        margin-top: 0rem;
+    }
+    .contactBtn a {
+        font-size: 2rem;
+    }
+    .item {
+        font-size: 1.6rem;
+    }
+    .item span {
+        display: block;
+        font-size: 2.7rem;
+    }
 }
